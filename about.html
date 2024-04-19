@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leahs Demo Website</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script>
+    function showMenu() {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.style.right = "0";
+    }
+</script>
+<script>
+    function hideMenu() {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.style.right = "-200px"; // Assuming you want to hide the menu by sliding it to the right
+    }
+</script>
+
+ 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/icon02.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="course.html">OFFERS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+
+           </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+          
+    </section>
+
+    <!------------------about us content---------------------->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Leah's Art Gallery</h1>
+                <p>Welcome to our vibrant online art gallery, where creativity thrives and diverse 
+                    forms of expression come to life. As passionate advocates of the arts, we strive to 
+                    cultivate a dynamic platform that celebrates the richness of human imagination and talent. 
+                    Through our curated collections spanning paintings, music, dance, sculptures, and more, we aim to 
+                    foster appreciation and understanding of various artistic genres while providing artists with a platform 
+                    to showcase their work to a global audience. We believe that art has the power to inspire, provoke thought
+                    and emotion. Join us on this journey of discovery and exploration as we invite you to immerse yourself in the 
+                    beauty and wonder of the artistic world. Together, let us ignite our shared passion for creativity and forge
+                    meaningful connections through the transformative power of art.</p>
+                    <a href="website.html" class="hero-btn red-btn">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="images/aboutimage.png">
+            </div>
+             
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!----------------footer/about us------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a dynamic art gallery dedicated to showcasing diverse and innovative works that inspire,<br> provoke thought, and enrich the cultural landscape of our community.</p>
+        
+        <div class="icons">
+            <a href="https://www.facebook.com/share/MrYZ13g3mM8Aegvr/?mibextid=qi2Omg">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/bronwynnaicker?igsh=empidTBzeHNhOWMw">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@leah_naicker?_t=8kb9lyFSwHm&_r=1">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            
+        </div>
+        <p>Made By Leah</p>
+
+    </section>
